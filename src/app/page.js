@@ -1,5 +1,14 @@
-import Image from "next/image";
+import Demo from "@/components/Demo";
+import Upload from "@/components/Upload";
+import Heading from "@/components/common/CommonHeading";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <>
+      <Demo />
+      <div className="text-center">
+        <Upload />
+      </div>
+    </>
+  );
 }
